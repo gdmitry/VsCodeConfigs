@@ -1,0 +1,13 @@
+// ѕоместите настраиваемые сочетани€ клавиш в этот файл, чтобы перезаписать клавиши по умолчанию.
+[
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus"
+    }
+]
