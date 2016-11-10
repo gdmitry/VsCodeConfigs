@@ -1,13 +1,23 @@
-// ѕоместите настраиваемые сочетани€ клавиш в этот файл, чтобы перезаписать клавиши по умолчанию.
+// Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+alt+l",
-        "command": "editor.action.format",
+        "key": "Ctrl+alt+l",
+        "command": "editor.action.formatDocument",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+/",
-        "command": "editor.action.addCommentLine",
+        "key": "Ctrl+alt+K",
+        "command": "editor.action.formatSelection",
+        "when": "editorTextFocus"
+    },   
+    {
+        "key": "ctrl+numpad_divide",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus"
+    },
+     {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus"
     }
 ]

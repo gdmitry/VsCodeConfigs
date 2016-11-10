@@ -1,4 +1,4 @@
-// ѕоместите параметры в этот файл, чтобы перезаписать параметры по умолчанию.
+// Place your settings in this file to overwrite the default settings
 {
-    "files.autoSave": "afterDelay"
+	"files.autoSave": "afterDelay"
 }
